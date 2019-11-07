@@ -13,7 +13,7 @@ body{
     /*background image https://images.nasa.gov/details-hubble-sees-a-legion-of-galaxies_25608651281_o;
     /*background-color: rgb(6, 0, 65); */
     background-color:black;
-    background-image:url("https://raw.githubusercontent.com/ayshafrahman/ayshafrahman.github.io/portfolio_draft/master/images/crabneb_op75.jpg");
+    background-image:url("../images/crabneb_op75.jpg");
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
