@@ -259,6 +259,8 @@ a{
     background:rgba(255, 255, 255, 0.25);
     color:white;
 }
-@media(max-width:580px){
-
+@media(max-width:768px){
+    #name{
+        width:100vw;
+    }
 }
