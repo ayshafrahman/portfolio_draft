@@ -260,7 +260,7 @@ a{
     color:white;
 }
 @media(max-width:768px){
-    body{
+    #name{
         width:100vw;
     }
 }
