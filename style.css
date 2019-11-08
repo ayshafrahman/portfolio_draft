@@ -259,6 +259,14 @@ a{
     background:rgba(255, 255, 255, 0.25);
     color:white;
 }
+@font-face {
+    font-family: "Isocpeur";
+    src: url("./fonts/isocpeur/ISOCPEUR.eot");
+    src:
+    url("./fonts/isocpeur/ISOCPEUR.woff") format("woff"),
+    url("./fonts/isocpeur/isocpeur.ttf") format("opentype"),
+    url("./fonts/isocpeur/ISOCPEUR.svg") format("svg");
+}
 @media(max-width:768px){
     #name{
         width:100vw;

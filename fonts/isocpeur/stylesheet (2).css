@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ISOCPEUR';
+    src: url('ISOCPEUR.eot');
+    src: url('ISOCPEUR.eot?#iefix') format('embedded-opentype'),
+        url('ISOCPEUR.woff2') format('woff2'),
+        url('ISOCPEUR.woff') format('woff'),
+        url('ISOCPEUR.svg#ISOCPEUR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
