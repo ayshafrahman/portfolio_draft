@@ -322,3 +322,8 @@ a{
         width:100vw;
     }
 }
+@media(max-height:400px){
+    #name{
+        top:-70vh;
+    }
+}
