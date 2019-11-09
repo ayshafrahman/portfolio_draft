@@ -20,6 +20,37 @@ body{
     background-attachment:fixed;
     min-height:100%;
 }
+/*Highlight select*/
+::selection {
+    background: rgba(255, 24, 139, 0.5); /* WebKit/Blink Browsers */
+  }
+::-moz-selection {
+    background: rgba(255, 24, 139, 0.5); /* Gecko Browsers */
+}
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3F2E8E;
+}
+
+/* Directional buttons 
+::-webkit-scrollbar-button{
+}*/
 
 .pimg1{
     position:relative;
@@ -49,7 +80,7 @@ nav ul > li > a{
 .navlink{
     border:0.5px solid #fff;
     background:rgba(0, 0, 0, 0.5);
-    animation: nav_fill 2s linear forwards;
+    animation: nav_fill 2.5s linear forwards;
 }
 .navlink:hover{
     background:rgba(255, 255, 255, 0.25);
@@ -113,35 +144,41 @@ nav{
 .last:nth-child(6){
     stroke-dasharray: 174px;
     stroke-dashoffset: 174px;
+    /*animation-delay: 1.5s;
     /*animation:line-anim 1s ease forwards;*/
 }
 .last:nth-child(7){
     stroke-dasharray: 147px;
     stroke-dashoffset: 147px;
+    /*animation-delay: 1.8s;*/
     animation-delay: 0.3s;
     /*animation:line-anim 1s ease forwards 0.3s;*/
 }
 .last:nth-child(8){
     stroke-dasharray: 225px;
     stroke-dashoffset: 225px;
+    /*animation-delay: 2.1s;*/
     animation-delay:0.6s;
     /*animation:line-anim 1s ease forwards 0.6s;*/
 }
 .last:nth-child(9){
     stroke-dasharray: 261px;
     stroke-dashoffset: 261px;
+    /*animation-delay: 2.4s;*/
     animation-delay: 0.9s;
     /*animation:line-anim 1s ease forwards 0.9s;*/
 }
 .last:nth-child(10){
     stroke-dasharray: 147px;
     stroke-dashoffset: 147px;
+    /*animation-delay: 2.7s;*/
     animation-delay:1.2s;
     /*animation:line-anim 1s ease forwards 1.2s;*/
 }
 .last:nth-child(11){
     stroke-dasharray: 254px;
     stroke-dashoffset: 254px;
+    /*animation-delay: 3.0s;*/
     animation-delay:1.5s;
     /*animation:line-anim 1s ease forwards 1.5s;*/
 }
@@ -204,17 +241,26 @@ a{
     color:white;
     text-decoration:none;
 }
-.centered{
-    text-align: center;
-}
 
 /*Project*/
+.projects{
+    height: 200px;
+    padding: 10px;
+}
 .project{
-    width:50vh;
+    width:200px;
+    box-sizing:border-box;
     position:relative;
+    display:inline-block;
+    text-align:center;
+    padding:10px;
+    margin:10px;
+    height: 150px;
 }
 .project_screenshot{
-    height:50vh;
+    width:100%;
+    margin:15px;
+    padding:15px;
 }
 .more{
     text-align:center;
@@ -231,6 +277,20 @@ a{
     background:rgba(255, 255, 255, 0.25);
     color:white;
 }
+.code_demo{
+    border:0.5px solid #fff;
+    background:rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+    padding:5px;
+    text-align:center;
+}
+.code_demo:hover{
+    background:rgba(255, 255, 255, 0.25);
+    color:white;
+}
+
+/*Resume
 .resume{
     font-size:10px;
     padding-top:5px;
@@ -246,19 +306,8 @@ a{
 .pdf{
     height:100%;
     width:100%;
-}
-.code_demo{
-    border:0.5px solid #fff;
-    background:rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-decoration: none;
-    padding:5px;
-    text-align:center;
-}
-.code_demo:hover{
-    background:rgba(255, 255, 255, 0.25);
-    color:white;
-}
+}*/
+/*Font*/
 @font-face {
     font-family: "Isocpeur";
     src: url("./fonts/isocpeur/ISOCPEUR.eot");
@@ -267,6 +316,7 @@ a{
     url("./fonts/isocpeur/isocpeur.ttf") format("opentype"),
     url("./fonts/isocpeur/ISOCPEUR.svg") format("svg");
 }
+/*Responsive*/
 @media(max-width:768px){
     #name{
         width:100vw;
