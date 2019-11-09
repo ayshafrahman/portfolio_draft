@@ -259,36 +259,25 @@ a{
 }
 .project_screenshot{
     width:100%;
-    margin:15px;
     padding:15px;
 }
 .more{
     text-align:center;
+    padding:20px;
 }
-.learnmore{
+.button{
     border:0.5px solid #fff;
-    background:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.5);
     color: #fff;
     text-decoration: none;
     padding:5px;
     text-align:center;
 }
-.learnmore:hover{
-    background:rgba(255, 255, 255, 0.25);
+.button:hover{
+    background-color:rgba(255, 255, 255, 0.25);
     color:white;
 }
-.code_demo{
-    border:0.5px solid #fff;
-    background:rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-decoration: none;
-    padding:5px;
-    text-align:center;
-}
-.code_demo:hover{
-    background:rgba(255, 255, 255, 0.25);
-    color:white;
-}
+
 
 /*Resume
 .resume{
@@ -322,8 +311,8 @@ a{
         width:100vw;
     }
 }
-@media(max-height:400px){
+/*@media(max-height:400px){
     #name{
         top:-70vh;
     }
-}
+}*/
