@@ -223,6 +223,7 @@ nav{
     color:white;
     background:rgba(0, 0, 0, 0.5);
     padding:50px;
+    text-align:center;
 }
 .space{
     position:relative;
@@ -237,18 +238,28 @@ nav{
     color:white;
     text-transform:uppercase;
 }
+.title{
+    text-align:center;
+}
 a{
     color:white;
     text-decoration:none;
 }
+p{
+    text-align:left;
+}
 
 /*Project*/
 .projects{
-    height: 200px;
     padding: 10px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 .project{
-    width:200px;
+    max-width:300px;
+    min-width:250px;
+    width:45%;
     box-sizing:border-box;
     position:relative;
     display:inline-block;
