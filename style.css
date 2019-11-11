@@ -106,6 +106,8 @@ nav{
     top:-60vh;
     left:49.5%;
     transform:translate(-50%,-50%);
+    padding:15px;
+    margin:15px;
 }
 
 .last{
@@ -419,7 +421,7 @@ p{
         width:100vw;
     }
     .project_snapshot{
-        max-width: 40%;
+        max-width: 100px;
     }
 }
 /*@media(max-height:400px){
