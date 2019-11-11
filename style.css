@@ -290,6 +290,7 @@ p{
     color:white;
 }
 
+/*https://ctrlq.org/code/20083-modal-popup-css*/
 .modal-window {
     position: fixed;
     background-color: rgba(46, 46, 46, 0.5);
@@ -303,6 +304,7 @@ p{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    overflow-y:auto;
 }
 
 .modal-window:target {
@@ -311,7 +313,7 @@ p{
 }
 
 .modal-window>div {
-    width: 400px;
+    width: 70vw;
     position: relative;
     margin: 10% auto;
     padding: 2rem;
@@ -321,15 +323,36 @@ p{
     color: #444;*/
 }
 
-/*https://ctrlq.org/code/20083-modal-popup-css*/
+/*Modal scrollbar*/
+/* width */
+.modal-window::-webkit-scrollbar {
+    width: 12px;
+}
+  
+/* Track */
+.modal-window::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+.modal-window::-webkit-scrollbar-thumb {
+    background: rgba(255, 24, 139, 0.5);
+}
+
+/* Handle on hover */
+.modal-window::-webkit-scrollbar-thumb:hover {
+    background: #3F2E8E;
+}
+
+
 .modal-window header {
     font-weight: bold;
 }
 
 .modal-close {
-    color: #aaa;
+    color: rgb(255, 255, 255);
     line-height: 50px;
-    font-size: 80%;
+    font-size: 115%;
     position: absolute;
     right: 0;
     text-align: center;
@@ -349,10 +372,15 @@ p{
 
 .modal_content{
     display:inline-block;
+    text-align:center;
 }
 .project_snapshot{
-    width:50%;
+    max-width:300px;
+    min-width:250px;
     outline:1px solid rgb(122, 122, 122);
+}
+.modal_buttons{
+    padding:10px;
 }
 
 
