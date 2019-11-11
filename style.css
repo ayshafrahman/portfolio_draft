@@ -415,13 +415,12 @@ p{
 @media(max-width:768px){
     #name{
         width:100vw;
-        padding:10px;
     }
     .modal-window{
         width:100vw;
     }
     .project_snapshot{
-        width: 50px;
+        width: 30px;
     }
 }
 /*@media(max-height:400px){
