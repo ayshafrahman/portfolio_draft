@@ -419,7 +419,7 @@ p{
         width:100vw;
     }
     .project_snapshot{
-        max-width: 200px;
+        max-width: 40%;
     }
 }
 /*@media(max-height:400px){
