@@ -415,6 +415,12 @@ p{
     #name{
         width:100vw;
     }
+    .modal-window{
+        width:100vw;
+    }
+    .project_snapshot{
+        max-width: 200px;
+    }
 }
 /*@media(max-height:400px){
     #name{
