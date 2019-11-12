@@ -320,8 +320,6 @@ p{
     padding: 2rem;
     background:rgba(0, 0, 0, 0.75);
     color:white;
-    /*background: #fff;
-    color: #444;*/
 }
 
 /*Modal scrollbar*/
@@ -419,12 +417,7 @@ p{
     .modal-window{
         width:100vw;
     }
-    .project_snapshot{
-        width: 25vw;
+    .project_snapshot{ 
+        width:100%;
     }
 }
-/*@media(max-height:400px){
-    #name{
-        top:-70vh;
-    }
-}*/
