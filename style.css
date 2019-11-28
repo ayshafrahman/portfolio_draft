@@ -5,6 +5,7 @@
 }
 html{
     font-family: 'Isocpeur', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
