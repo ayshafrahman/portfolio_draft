@@ -421,9 +421,11 @@ p{
     .modal-content{
         width:100%;
         margin:auto;
+        padding: 15px;
     }
     .project_snapshot{ 
-        width:35vw;
+        max-width:100%;
+        min-width:25%;
         margin:auto;
     }
 }
