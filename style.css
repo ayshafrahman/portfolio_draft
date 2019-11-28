@@ -372,6 +372,7 @@ p{
 .modal_content{
     display:inline-block;
     text-align:center;
+    margin:auto:
 }
 .project_snapshot{
     max-width:300px;
@@ -419,9 +420,11 @@ p{
     }
     .modal-content{
         width:100%;
+        margin:auto;
     }
     .project_snapshot{ 
-        width:100%;
+        width:35vw;
+        margin:auto;
     }
 }
 @media(max-height:400px){
