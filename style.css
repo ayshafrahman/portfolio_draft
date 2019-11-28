@@ -434,9 +434,4 @@ p{
     #name{
         padding:15px;
     }
-    .project_snapshot{ 
-        max-width:75vw;
-        min-width:25vw;
-        margin:auto;
-    }
 }
