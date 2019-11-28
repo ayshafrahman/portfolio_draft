@@ -294,6 +294,7 @@ p{
 .modal-window {
     position: fixed;
     background-color: rgba(46, 46, 46, 0.5);
+    margin:auto;
     top: 0;
     right: 0;
     bottom: 0;
