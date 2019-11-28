@@ -433,7 +433,9 @@ p{
 @media(max-height:400px){
     #name{
         padding:15px;
-        top:-80vh;
-        
+        top:-70vh;
+    }
+    #soclink{
+        top: 40%;
     }
 }
