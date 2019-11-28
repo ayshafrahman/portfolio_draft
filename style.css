@@ -434,8 +434,8 @@ p{
         padding:15px;
     }
     .project_snapshot{ 
-        max-width:100vh;
-        min-width:25vh;
+        max-width:75vw;
+        min-width:25vw;
         margin:auto;
     }
 }
