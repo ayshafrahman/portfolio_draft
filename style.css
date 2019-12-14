@@ -307,9 +307,11 @@ p{
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     overflow-y:auto;
+    display:none;
 }
 
 .modal-window:target {
+    display: block;
     opacity: 1;
     pointer-events: auto;
 }
