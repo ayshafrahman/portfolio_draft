@@ -308,10 +308,12 @@ p{
     transition: all 0.3s;
     overflow-y:auto;
     display:none;
+    visibility: hidden;
 }
 
 .modal-window:target {
     display: block;
+    visibility: visible;
     opacity: 1;
     pointer-events: auto;
 }
