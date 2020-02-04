@@ -222,6 +222,8 @@ nav{
     top:-100vh;
     bottom:-100vh;
     color:white;
+    margin-left: 10vw;
+    margin-right:10vw;
     background:rgba(0, 0, 0, 0.5);
     padding:50px;
     text-align:center;
