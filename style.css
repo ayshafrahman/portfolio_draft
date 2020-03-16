@@ -11,10 +11,10 @@ html{
 body{
     width:100%;
     height:100vh;
-    /*background image https://images.nasa.gov/details-hubble-sees-a-legion-of-galaxies_25608651281_o;
+    /*background image https://hubblesite.org/image/4242/gallery;
     /*background-color: rgb(6, 0, 65); */
     background-color:black;
-    background-image:url("./images/crabneb_op75.jpg");
+    background-image:url("./images/ic63ghostnebula.png");
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -23,10 +23,10 @@ body{
 }
 /*Highlight select*/
 ::selection {
-    background: rgba(255, 24, 139, 0.5); /* WebKit/Blink Browsers */
+    background: rgba(252,118,23, 0.5); /* WebKit/Blink Browsers */
   }
 ::-moz-selection {
-    background: rgba(255, 24, 139, 0.5); /* Gecko Browsers */
+    background: rgba(252,118,23, 0.5); /* Gecko Browsers */
 }
 /*Scrollbar*/
 /* width */
@@ -46,7 +46,7 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3F2E8E;
+    background:rgba(252,118,23, 0.5);
 }
 
 /* Directional buttons 
@@ -62,6 +62,10 @@ body{
     background-repeat:no-repeat;
     background-attachment:fixed;
     min-height:100%;
+}
+
+.header{
+    height:100%;
 }
 
 /*navbar*/
@@ -217,6 +221,19 @@ nav{
     }
 }
 
+/*Scroll to top button*/
+.sticky {
+    /*position: fixed;*/
+    position: fixed;
+    position: -webkit-sticky; /* Safari */
+    bottom:0px;
+    right:0;
+    margin-right: 2vh;
+    text-align: right;
+    font-size: x-large;
+    color:rgba(252,118,23, 1);
+  }
+
 .section{
     position:relative;
     top:-100vh;
@@ -224,6 +241,7 @@ nav{
     color:white;
     margin-left: 12vw;
     margin-right:12vw;
+    margin-bottom:12vh;
     background:rgba(0, 0, 0, 0.5);
     padding:50px;
     text-align:center;
@@ -274,10 +292,10 @@ p{
 .project_screenshot{
     width:100%;
     padding:15px;
-    opacity:1;
+    opacity:0.7;
 }
 .project_screenshot:hover{
-    opacity:0.7;
+    opacity:1;
 }
 
 .more{
@@ -347,12 +365,12 @@ p{
 
 /* Handle */
 .modal-window::-webkit-scrollbar-thumb {
-    background: rgba(255, 24, 139, 0.5);
+    background: rgba(252,118,23, 0.5);
 }
 
 /* Handle on hover */
 .modal-window::-webkit-scrollbar-thumb:hover {
-    background: #3F2E8E;
+    background: rgba(252,118,23, 1);
 }
 
 
@@ -373,7 +391,7 @@ p{
 }
 
 .modal-close:hover {
-    color: rgba(255, 24, 139, 0.5);
+    color: rgba(252,118,23, 0.5);
 }
 
 .modal-window h1 {
@@ -381,10 +399,16 @@ p{
     margin: 0 0 15px;
 }
 
-.modal_content{
-    display:inline-block;
+.modal_block{
     text-align:center;
-    margin:auto:
+    margin-right:10px;
+    float:left;
+}
+
+.modal_content{
+    display:flex;
+    text-align:center;
+    margin-left:10px;
 }
 .project_snapshot{
     max-width:300px;
@@ -445,6 +469,17 @@ p{
     .section{
         margin-left: 0;
         margin-right:0;
+    }
+    .modal_block{
+        display:inline-block;
+        text-align:center;
+        margin:auto;
+    }
+    
+    .modal_content{
+        display:inline-block;
+        text-align:center;
+        margin:auto;
     }
 }
 @media(max-height:400px){
