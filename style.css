@@ -411,6 +411,7 @@ p{
 .modal_content{
     text-align:center;
     margin-left:10px;
+    overflow:auto;
 }
 .project_snapshot{
     max-width:300px;
