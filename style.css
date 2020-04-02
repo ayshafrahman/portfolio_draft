@@ -409,7 +409,6 @@ p{
 }
 
 .modal_content{
-    display:flex;
     text-align:center;
     margin-left:10px;
 }
@@ -463,15 +462,18 @@ p{
         padding: 15px;
     }
     .project_snapshot{ 
-        max-width:100%;
-        min-width:25%;
+        max-width:300px;
+        width:75%;
         margin:auto;
+    }
+    .modal_block{
+        float:none;
     }
 }
 @media(max-width:450px){
     .section{
-        margin-left: 0;
-        margin-right:0;
+        margin-left: 3vw;
+        margin-right:3vw;
     }
     .modal_block{
         display:inline-block;
