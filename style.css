@@ -481,10 +481,13 @@ p{
         text-align:center;
         margin:auto;
     }
-    
     .modal_content{
         display:inline-block;
         text-align:center;
+        margin:auto;
+    }
+    .project_snapshot{ 
+        max-width:75%;
         margin:auto;
     }
 }
