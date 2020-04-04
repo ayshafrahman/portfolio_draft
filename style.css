@@ -416,7 +416,6 @@ p{
 .project_snapshot{
     max-width:300px;
     min-width:250px;
-    outline:1px solid rgb(122, 122, 122);
 }
 .modal_buttons{
     padding:10px;
@@ -465,6 +464,7 @@ p{
     .project_snapshot{ 
         max-width:300px;
         width:75%;
+        min-width: 25%;
         margin:auto;
     }
     .modal_block{
@@ -484,10 +484,6 @@ p{
     .modal_content{
         display:inline-block;
         text-align:center;
-        margin:auto;
-    }
-    .project_snapshot{ 
-        max-width:75%;
         margin:auto;
     }
 }
