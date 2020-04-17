@@ -69,6 +69,13 @@ body{
     height:100%;
 }
 
+p > a{
+    color:rgba(252,118,23, 1);
+}
+a:hover{
+    color:white;
+}
+
 /*navbar*/
 nav li{
     display:inline-block;
@@ -90,7 +97,6 @@ nav ul > li > a{
 }
 .navlink:hover{
     background:rgba(255, 255, 255, 0.25);
-    color:white;
 }
 .soclink:hover{
     color:rgba(255, 255, 255, 0.5);
@@ -314,7 +320,6 @@ p{
 }
 .button:hover{
     background-color:rgba(255, 255, 255, 0.25);
-    color:white;
 }
 
 /*https://ctrlq.org/code/20083-modal-popup-css*/
