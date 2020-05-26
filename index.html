@@ -14,7 +14,7 @@
 
     <body> 
         <div class="pimg1"></div>
-        <div class="header">
+        <header>
             <div class="fullname">
             <svg 
                 id="name"
@@ -42,210 +42,173 @@
             </svg>
             </div>
 
-            <div navigation>
-                <nav>
-                    <ul>
-                        <li><a class="navlink" href="#about">About</a></li>
-                        <li><a class="navlink" href="#projects">Projects</a></li>
-                        <li><a class="navlink" href="./resume/Rahman_Resume_Portfolio.pdf" target="_blank" class="resume">Resume</a></li><br><br>
-                        <li><a class="soclink" href="mailto:aysha@arahman.tech" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                        <li><a class="soclink" href="https://www.linkedin.com/in/ayshaferdousirahman/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-                        <li><a class="soclink" href="https://github.com/ayshafrahman" target="_blank"><i class="fa fa-github"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </div>
-        <div class="space"><div class="sticky"><a class = "soclink" href=#><i class="fa fa-angle-up"></i></a></div></div>
-        <div class="section" id="about">
-            <a name="about"><h2 class="subhead">About</h2></a><br>
-            <p>
-                Hi there! If you couldn't tell, my name is Aysha Rahman. I recently graduated from Agnes Scott College with a degree in Astrophysics, and I'm looking to transition from physics to tech. 
-            </p>
-            </br>
-            <p>
-                I'm most familiar with Java and Python, though I've dabbled a little in other languages such as C and R. Have a look at some of the projects I've worked on — most of them are a result of my physics background, and I'm always working on something new. 
-            </p>
-        </br>
-        <p>
-            Site background image: <a href="https://hubblesite.org/image/4242/gallery" target="_blank">IC 63 Ghost Nebula from NASA, ESA, and STScI</a>
-        </p>
-        </div>
-        
-        <div class="space"></div>
-        <div class="section" id="projects">
-            <a name="projects"><h2 class="subhead">Projects</h2></a><br>
-            <!--<div class="project" id="project1">
-                <p class="title">Project 1</p>
-                <a href="#open-modal1"><img src="projects/alston.jpg" class="project_screenshot"></a>
-                <div id="open-modal1" class="modal-window">
-                    <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
-                        <h1>Project 1</h1>
-                        <div class="modal_content">
-                            <div class="modal_block">
-                                <div>
-                                    <img src="projects/alston.jpg" class="project_snapshot">
-                                </div>
-                                <div class="modal_buttons">
-                                    <a href=# target="_blank" class="button">GitHub</a>
-                                    <a href=# target="_blank" class="button">Demo</a>
-                                </div>
-                            </div>
-                            <div class="project_description">
-                                <p>What: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, assumenda!</p><br>
-                                <p>Why: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, quisquam modi.</p><br>
-                                <p>How: The technologies used were Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href=# target="_blank" class="button">GitHub</a>
-                <a href=# target="_blank" class="button">Demo</a>
-            </div>
-            <div class="project" id="project2">
-                <p class="title">Project 2</p>
-                <a href="#open-modal2"><img src="projects/tree.jpg" class="project_screenshot"></a>
-                <div id="open-modal2" class="modal-window">
-                    <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
-                        <h1>Project 2</h1>
-                        <div class="modal_content">
-                            <div class="modal_block">
-                                <div>
-                                    <img src="projects/tree.jpg" class="project_snapshot">
-                                </div>
-                                <div class="modal_buttons">
-                                    <a href=# target="_blank" class="button">GitHub</a>
-                                    <a href=# target="_blank" class="button">Demo</a>
-                                </div>
-                            </div>
-                            <div class="project_description">
-                                <p>What: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, assumenda!</p><br>
-                                <p>Why: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, quisquam modi.</p><br>
-                                <p>How: The technologies used were Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href=# target="_blank" class="button">GitHub</a>
-                <a href=# target="_blank" class="button">Demo</a>
-            </div>-->
-            <div class="project" id="project3">
-                <p class="title">Pokemon Data Science Project</p>
-                <a href="#open-modal-pokemon"><img src="projects/pokeball.png" class="project_screenshot"></a>
-                <div id="open-modal-pokemon" class="modal-window">
-                    <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
-                        <h1>Pokemon Data Science Project</h1>
-                        <div class="modal_content">
-                            <div class="modal_block">
-                                <div>
-                                    <img src="projects/pokeball.png" class="project_snapshot">
-                                </div>
-                                <div class="modal_buttons">
-                                    <a href="https://github.com/ayshafrahman/datasci_pokemon_final/tree/master" target="_blank" class="button">GitHub</a>
-                                    <a href="projects/Rahman_Final.html" target="_blank" class="button">Report</a>
-                                </div>
-                            </div>
-                            <div class="project_description">
-                                <p>What: This is a an analysis of a dataset of Pokemon stats, and its goal is to create an ideal "strongest" Pokemon team to use in a game.</p><br>
-                                <p>Why: This was the final project for my PHY 231 Intro to Data Science class in college. The project was to pick a dataset (I got mine from <a href="https://www.kaggle.com/rounakbanik/pokemon/version/1">Kaggle</a>) and do an analysis of it using Python in Jupyter Notebook. I chose the Pokemon dataset, which is a csv file scraped from <a href="serebii.net">serebii.net</a>, a website that has all kinds of information on the Pokemon franchise.</p><br>
-                                <p>How: This was done with Python in Jupyter Notebook, and I used libraries such as pandas, altair, numpy, scikit-learn, and matplotlib.</p><br>
-                                <p>Image: <a href="http://icon-library.com/icon/pokeball-icon-4.html">Free ICONS Library</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="https://github.com/ayshafrahman/datasci_pokemon_final/tree/master" target="_blank" class="button">GitHub</a>
-                <a href="projects/Rahman_Final.html" target="_blank" class="button">Report</a>
-            </div>
-            <div class="project">
-                <p class="title"><br/>Monte Carlo Tree Simulation</p>
-                <a href="#open-modal-tree"><img src="projects/tree.jpg" class="project_screenshot"></a>
-                <div id="open-modal-tree" class="modal-window">
-                    <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
-                        <h1>Monte Carlo Tree Simulation</h1>
-                        <div class="modal_content">
-                            <div class="modal_block">
-                                <div>
-                                    <img src="projects/tree.jpg" class="project_snapshot">
-                                </div>
-                                <div class="modal_buttons">
-                                    <a href="https://github.com/ayshafrahman/montecarlo_tree/tree/master" target="_blank" class="button">GitHub</a>
-                                    <a href="projects/Rahman_420_Report.pdf" target="_blank" class="button">Report</a>
-                                </div>
-                            </div>
-                            <div class="project_description">
-                                <p>What: A Monte Carlo simulation that generates a randomly branching tree. </p><br>
-                                <p>Why: This was a project I did in college in an effort to assess the amount of light that a dormant tree was blocking from a solar panel on the roof of the Bradley Observatory. This code sets rules for generating the tree and produces the points that the tree inhabits. </p><br>
-                                <p>How: This Monte Carlo simulation was written in C.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="https://github.com/ayshafrahman/montecarlo_tree/tree/master" target="_blank" class="button">GitHub</a>
-                <a href="projects/Rahman_420_Report.pdf" target="_blank" class="button">Report</a>
-            </div>
-            <br><br><br>
+            <nav>
+                <ul>
+                    <li><a class="navlink" href="#about">About</a></li>
+                    <li><a class="navlink" href="#projects">Projects</a></li>
+                    <li><a class="navlink" href="./resume/Rahman_Resume_Portfolio.pdf" target="_blank" class="resume">Resume</a></li><br><br>
+                    <li><a class="soclink" href="mailto:aysha@arahman.tech" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                    <li><a class="soclink" href="https://www.linkedin.com/in/ayshaferdousirahman/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a class="soclink" href="https://github.com/ayshafrahman" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </nav>
             
-            <hr/>
             
-            <!-- RESEARCH -->
+        </header>
+        
+        <main>
+            <div class="sticky"><a class = "soclink" href="#"><i class="fa fa-angle-up"></i></a></div>
+            <section class="section" id="about">
+                <a name="about"><h2 class="subhead">About</h2></a><br>
+                <p>
+                    Hi there! If you couldn't tell, my name is Aysha Rahman. I recently graduated from Agnes Scott College with a degree in Astrophysics, and I'm looking to transition from physics to tech. 
+                </p>
+                </br>
+                <p>
+                    I'm most familiar with Java and Python, though I've dabbled a little in other languages such as C and R. Have a look at some of the projects I've worked on — most of them are a result of my physics background, and I'm always working on something new. 
+                </p>
+            </section>
             
-            <br><br>
-            <a name="research"><h2 class="subhead">Research</h2></a><br>
-            <div class="project" id="comets">
-                <p class="title">Observations of the 18 cm OH Lines of 23 Comets</p>
-                <a href="#open-modal-comet"><img src="projects/2pnov28crop.png" class="project_screenshot"></a>
-                <div id="open-modal-comet" class="modal-window">
-                    <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
-                        <h1>Observations of the 18 cm OH Lines of 23 Comets</h1>
-                        <div class="modal_content">
-                            <div class="modal_block">
-                                <div>
-                                    <img src="projects/2pnov28.PNG" class="project_snapshot">
+            <div class="space"></div>
+            <section class="section" id="projects">
+                <a name="projects"><h2 class="subhead">Projects</h2></a><br>
+                <div class="project" id="project3">
+                    <p class="title">Pokemon Data Science Project</p>
+                    <a href="#open-modal-pokemon"><img src="projects/pokeball.png" class="project_screenshot"></a>
+                    <div id="open-modal-pokemon" class="modal-window">
+                        <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
+                            <h1>Pokemon Data Science Project</h1>
+                            <div class="modal_content">
+                                <div class="modal_block">
+                                    <div>
+                                        <img src="projects/pokeball.png" class="project_snapshot">
+                                    </div>
+                                    <div class="modal_buttons">
+                                        <a href="https://github.com/ayshafrahman/datasci_pokemon_final/tree/master" target="_blank" class="button">GitHub</a>
+                                        <a href="projects/Rahman_Final.html" target="_blank" class="button">Report</a>
+                                    </div>
                                 </div>
-                                <div class="modal_buttons">
-                                    <a href="projects/GRAM_poster.pdf" target="_blank" class="button">Poster</a>
+                                <div class="project_description">
+                                    <p>What: This is a an analysis of a dataset of Pokemon stats, and its goal is to create an ideal "strongest" Pokemon team to use in a game.</p><br>
+                                    <p>Why: This was the final project for my PHY 231 Intro to Data Science class in college. The project was to pick a dataset (I got mine from <a href="https://www.kaggle.com/rounakbanik/pokemon/version/1">Kaggle</a>) and do an analysis of it using Python in Jupyter Notebook. I chose the Pokemon dataset, which is a csv file scraped from <a href="serebii.net">serebii.net</a>, a website that has all kinds of information on the Pokemon franchise.</p><br>
+                                    <p>How: This was done with Python in Jupyter Notebook, and I used libraries such as pandas, altair, numpy, scikit-learn, and matplotlib.</p><br>
+                                    <p>Image: <a href="http://icon-library.com/icon/pokeball-icon-4.html">Free ICONS Library</a></p>
                                 </div>
-                            </div>
-                            <div class="project_description">
-                                <p>What: This is research done for Dr. Amy Lovell from Agnes Scott College, running models and mapping comets based on observations of OH spectral lines from the Green Bank Telescope.</p><br>
-                                <p>Why: Comets provide a unique opportunity to study the early solar system. Understanding comets, which are made of roughly 80% water ice and 20% silicate dust and other materials, is critical to understanding the formation of the solar system. Ground-based observations using the 100 meter Green Bank Telescope and 305 meter Arecibo telescope allow for mapping and modeling of the gas production rates and outflow velocities of 23 comets as they near perihelion.</p><br>
-                                <p>How: We used VirtualBox to run programs on virtual machines using the Fedora distribution of the Linux operating system and used Octave and Gnuplot for analysis and graphing.</p><br>
                             </div>
                         </div>
                     </div>
+                    <a href="https://github.com/ayshafrahman/datasci_pokemon_final/tree/master" target="_blank" class="button">GitHub</a>
+                    <a href="projects/Rahman_Final.html" target="_blank" class="button">Report</a>
                 </div>
-                <a href="projects/GRAM_poster.pdf" target="_blank" class="button">Poster</a>
-            </div>
-            <div class="project">
-                <p class="title"><br/>Social behavior in Groups of Mating Male and Female Bean Beetles</p>
-                <a href="#open-modal-beetles"><img src="projects/beanbeetles.jpg" class="project_screenshot"></a>
-                <div id="open-modal-beetles" class="modal-window">
-                    <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
-                        <h1>Social behavior in Groups of Mating Male and Female Bean Beetles</h1>
-                        <div class="modal_content">
-                            <div class="modal_block">
-                                <div>
-                                    <img src="projects/beanbeetles.jpg" class="project_snapshot">
+                <div class="project">
+                    <p class="title"><br/>Monte Carlo Tree Simulation</p>
+                    <a href="#open-modal-tree"><img src="projects/tree.jpg" class="project_screenshot"></a>
+                    <div id="open-modal-tree" class="modal-window">
+                        <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
+                            <h1>Monte Carlo Tree Simulation</h1>
+                            <div class="modal_content">
+                                <div class="modal_block">
+                                    <div>
+                                        <img src="projects/tree.jpg" class="project_snapshot">
+                                    </div>
+                                    <div class="modal_buttons">
+                                        <a href="https://github.com/ayshafrahman/montecarlo_tree/tree/master" target="_blank" class="button">GitHub</a>
+                                        <a href="projects/Rahman_420_Report.pdf" target="_blank" class="button">Report</a>
+                                    </div>
                                 </div>
-                                <div class="modal_buttons">
-                                    <a href="projects/Bean-Beetle-Research-Poster-May-2014.pdf" target="_blank" class="button">Poster</a>
+                                <div class="project_description">
+                                    <p>What: A Monte Carlo simulation that generates a randomly branching tree. </p><br>
+                                    <p>Why: This was a project I did in college in an effort to assess the amount of light that a dormant tree was blocking from a solar panel on the roof of the Bradley Observatory. This code sets rules for generating the tree and produces the points that the tree inhabits. </p><br>
+                                    <p>How: This Monte Carlo simulation was written in C.</p>
                                 </div>
-                            </div>
-                            <div class="project_description">
-                                <p>What: This is behavioral biology research on male bean beetle (Callosobruchus maculatus) social behavior that I did in high school with Dr. Barbara Musolf from Clayton State University.</p><br>
-                                <p>Why: Previous experiments with bean beetles showed that male bean beetles seemed not to show preference when interacting with other bean beetles. This experiment was done to determine what social behaviors male bean beetles performed and whether those interactions varied based on sex of the other beetles.  We found that males spent most of their time mating with females, and when interacting with other males formed dominance hierarchies, which had not previously been studied in this species.</p><br>
-                                <p>How: This was done with bean beetles bred in dishes of black-eyed peas. Beetles were then painted to distinguish them from one another and recorded for 4+ hours in a petri dish. We then played back the footage, recorded every instance of every type of interaction, and constructed ethograms.</p>
                             </div>
                         </div>
                     </div>
+                    <a href="https://github.com/ayshafrahman/montecarlo_tree/tree/master" target="_blank" class="button">GitHub</a>
+                    <a href="projects/Rahman_420_Report.pdf" target="_blank" class="button">Report</a>
                 </div>
-                <a href="projects/Bean-Beetle-Research-Poster-May-2014.pdf" target="_blank" class="button">Poster</a>
-            </div>
-            <br><br>
-        </div>
+                <br><br><br>
+                
+                <hr/>
+                
+                <!-- RESEARCH -->
+                
+                <br><br>
+                <a name="research"><h2 class="subhead">Research</h2></a><br>
+                <div class="project" id="comets">
+                    <p class="title">Observations of the 18 cm OH Lines of 23 Comets</p>
+                    <a href="#open-modal-comet"><img src="projects/2pnov28crop.png" class="project_screenshot"></a>
+                    <div id="open-modal-comet" class="modal-window">
+                        <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
+                            <h1>Observations of the 18 cm OH Lines of 23 Comets</h1>
+                            <div class="modal_content">
+                                <div class="modal_block">
+                                    <div>
+                                        <img src="projects/2pnov28.PNG" class="project_snapshot">
+                                    </div>
+                                    <div class="modal_buttons">
+                                        <a href="projects/GRAM_poster.pdf" target="_blank" class="button">Poster</a>
+                                    </div>
+                                </div>
+                                <div class="project_description">
+                                    <p>What: This is research done for Dr. Amy Lovell from Agnes Scott College, running models and mapping comets based on observations of OH spectral lines from the Green Bank Telescope.</p><br>
+                                    <p>Why: Comets provide a unique opportunity to study the early solar system. Understanding comets, which are made of roughly 80% water ice and 20% silicate dust and other materials, is critical to understanding the formation of the solar system. Ground-based observations using the 100 meter Green Bank Telescope and 305 meter Arecibo telescope allow for mapping and modeling of the gas production rates and outflow velocities of 23 comets as they near perihelion.</p><br>
+                                    <p>How: We used VirtualBox to run programs on virtual machines using the Fedora distribution of the Linux operating system and used Octave and Gnuplot for analysis and graphing.</p><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="projects/GRAM_poster.pdf" target="_blank" class="button">Poster</a>
+                </div>
+                <div class="project">
+                    <p class="title"><br/>Social behavior in Groups of Mating Male and Female Bean Beetles</p>
+                    <a href="#open-modal-beetles"><img src="projects/beanbeetles.jpg" class="project_screenshot"></a>
+                    <div id="open-modal-beetles" class="modal-window">
+                        <div><a href="#modal-close" title="close" class="modal-close"><strong>X</strong></a>
+                            <h1>Social behavior in Groups of Mating Male and Female Bean Beetles</h1>
+                            <div class="modal_content">
+                                <div class="modal_block">
+                                    <div>
+                                        <img src="projects/beanbeetles.jpg" class="project_snapshot">
+                                    </div>
+                                    <div class="modal_buttons">
+                                        <a href="projects/Bean-Beetle-Research-Poster-May-2014.pdf" target="_blank" class="button">Poster</a>
+                                    </div>
+                                </div>
+                                <div class="project_description">
+                                    <p>What: This is behavioral biology research on male bean beetle (Callosobruchus maculatus) social behavior that I did in high school with Dr. Barbara Musolf from Clayton State University.</p><br>
+                                    <p>Why: Previous experiments with bean beetles showed that male bean beetles seemed not to show preference when interacting with other bean beetles. This experiment was done to determine what social behaviors male bean beetles performed and whether those interactions varied based on sex of the other beetles.  We found that males spent most of their time mating with females, and when interacting with other males formed dominance hierarchies, which had not previously been studied in this species.</p><br>
+                                    <p>How: This was done with bean beetles bred in dishes of black-eyed peas. Beetles were then painted to distinguish them from one another and recorded for 4+ hours in a petri dish. We then played back the footage, recorded every instance of every type of interaction, and constructed ethograms.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="projects/Bean-Beetle-Research-Poster-May-2014.pdf" target="_blank" class="button">Poster</a>
+                </div>
+            </section>
+        </main>
         
-        
+        <footer>
+            <small>
+                <!--<ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="./resume/Rahman_Resume_Portfolio.pdf" target="_blank" class="resume">Resume</a></li>
+                </ul>
+                <ul>
+                    <li><a class="soclink" href="mailto:aysha@arahman.tech" target="_blank"><i class="fa fa-envelope"></i> Email</a></li>
+                    <li><a class="soclink" href="https://www.linkedin.com/in/ayshaferdousirahman/" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+                    <li><a class="soclink" href="https://github.com/ayshafrahman" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+                </ul>-->
+                <div>
+                    <a href="#about">About</a> | <a href="#projects">Projects</a> | <a href="./resume/Rahman_Resume_Portfolio.pdf" target="_blank" class="resume">Resume</a> | <a href="mailto:aysha@arahman.tech" target="_blank"><i class="fa fa-envelope"></i> Email</a> | <a href="https://www.linkedin.com/in/ayshaferdousirahman/" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a> | <a href="https://github.com/ayshafrahman" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+                </div>
+                <div>
+                    <p>&copy; 2020 Aysha Rahman | Background image credit <a href="https://hubblesite.org/image/4242/gallery" target="_blank">IC 63 Ghost Nebula from NASA, ESA, and STScI</a></p>
+                </div>
+            </small>
+            
+        </footer>
         
         
     </body>
