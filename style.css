@@ -91,6 +91,7 @@ nav ul > li > a {
   padding-right: 2px;
 }
 .navlink {
+  color: white;
   border: 0.5px solid #fff;
   background: rgba(0, 0, 0, 0.5);
   animation: nav_fill 2.5s linear forwards;
