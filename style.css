@@ -444,6 +444,19 @@ p {
     url("./fonts/isocpeur/isocpeur.ttf") format("opentype"),
     url("./fonts/isocpeur/ISOCPEUR.svg") format("svg");
 }
+
+/*Self Hosted Service SVG Logos*/
+.svg-logo {
+  opacity: 1;
+  /* Smooth transition effect */
+  transition: opacity 0.3s ease; 
+}
+
+.svg-logo:hover {
+  /* Adjust this decimal for the transparency level you want */
+  opacity: 0.5; 
+}
+
 /*Responsive*/
 @media (max-width: 768px) {
   #name {
